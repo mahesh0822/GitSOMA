@@ -27,6 +27,8 @@ public class TestBase {
 	@SuppressWarnings("deprecation")
 	public void initiate() throws IOException {
 		configFileReader = new ConfigFileReader();
+		
+		System.out.println("git pull");
 
 		// properties = new Properties();
 		String device = configFileReader.getDeviceName();
